@@ -1,0 +1,77 @@
+# Environment & Secrets
+.env
+.env.local
+*.log
+
+# Java & Maven
+target/
+*.class
+.mvn/wrapper/maven-wrapper.jar
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Python & AI Service
+__pycache__/
+*.py[cod]
+*$py.class
+ai-service/venv/
+.pytest_cache/
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+
+# All environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+*.log
+
+# Python environments and caches
+venv/
+.venv/
+**/venv/
+**/.venv/
+__pycache__/
+.pytest_cache/
+
+# Local databases and backups
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.dump
+
+# Local uploads and customer data
+uploads/
+storage/
+customer-photos/
+customer-documents/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local test data - keep private until verified
+/test_images/
+/test_statement.csv
+
+# Temporarily exclude unverified test credentials
+/backend/src/test/resources/application.properties
+
+# Local-only Spring configuration
+/backend/src/main/resources/application-local.properties
